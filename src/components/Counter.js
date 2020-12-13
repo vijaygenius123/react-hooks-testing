@@ -5,7 +5,7 @@ const Counter = ({onCountChange}) => {
 
     useEffect(() => {
         onCountChange(count);
-    },)
+    })
 
     return (
         <div>
